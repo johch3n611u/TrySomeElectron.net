@@ -1,22 +1,24 @@
-## 引言
+## INTRODUCTION
 
-幫老媽做個單機程式減少他工作量，
+Built a standalone desktop application to reduce my mom’s workload.
 
-Hellow Electron.net 利用 sheetjs datatablesjs，
+Hello, Electron.NET! Utilizing SheetJS and DataTables.js,
 
-所拼裝單機桌面讀取 xlsx 閱讀器，任何 xlsx 單工作簿皆可使用。
+I assembled a local desktop XLSX reader to open and display any single-sheet XLSX file.
 
-# 簡易 xlsx 篩選閱讀器
+# Simple xlsx Filter Reader
 
 ![alt](/sample.png)
 
-## 需求
+## What is the demand?
 
-避免業務使用繁瑣 excel 操作誤觸原始資料，以 xlsx 為簡易資料庫讀取資料做篩選顯示，必須好安裝簡單使用為基準。
+To prevent business users from accidentally modifying raw data due to complex Excel operations, 
 
-預想後續需求不以 sheetjs 純做前端處理，而是搭配 electron.net(.net core & electron) 做後續後端需求的擴增。
+the application treats XLSX files as a lightweight database for data retrieval, filtering, and display. The focus is on easy installation and user-friendly operation.
 
-## 參考
+For future expansion, instead of relying solely on SheetJS for frontend processing, the plan is to integrate Electron.NET (.NET Core & Electron) to support additional backend functionalities.
+
+## REFER
 
 <https://igouist.github.io/post/202006-electron-net/#%E5%89%8D%E5%BE%8C%E7%AB%AF%E5%82%B3%E5%80%BC-ipcmain-ipcrenderer>
 
